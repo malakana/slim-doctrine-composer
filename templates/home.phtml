@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slim Framework + Doctrine + Custom Path en Composer</title>
+</head>
+<body>
+<h1>Usando Doctrine 2 en Slim Framework</h1>
+
+<?php
+
+echo '<table>';
+
+foreach ($result as $row) {
+
+    echo '<tr>
+            <td>'.$row->__get('name').'</td>
+            <td>'.$row->__get('age').'</td>
+          </tr>';
+}
+
+echo '</table>';
+
+?>
+
+</body>
+</html>

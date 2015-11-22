@@ -1,0 +1,9 @@
+E{
+    "require": {
+        "slim/slim": "^2.6",
+        "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4": {"Custom\\": "src/"}
+    }
+}
